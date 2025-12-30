@@ -1,0 +1,296 @@
+.midle-container {
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff7d;
+    padding: 40px 50px;
+    border-radius: 10px;
+    
+}
+
+
+/*home*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    width: auto;
+    height: 25vh;
+    background-image: url("Gambar/Banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    background:#00bfa6;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+.wisata-text h2 {
+    font-size: 36px;
+    color: #1f2933;
+    margin-bottom: 20px;
+    position: relative;
+}
+.wisata-text h2::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #00bfa6, #00e6c3);
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.wisata-text h3::after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.wisata-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 18px;
+    text-align:justify;
+    
+}
+
+.wisata-image img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease;
+    padding-bottom: 2%;
+}
+.gallery img {
+    width: 250px;
+    margin: 10px;
+}
+
+form input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background: #5a7680;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background: #1111118c;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*Destination*/
+
+.contentdestinasi {
+    padding: 100px 80px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.contentdestinasi h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #1f2933;
+    position: relative;
+}
+
+.contentdestinasi h2::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background: linear-gradient(90deg, #00bfa6, #00e6c3);
+    display: block;
+    margin: 14px auto 0;
+    border-radius: 10px;
+}
+
+.wisata-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+.wisata-card {
+    background: #ffffff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    text-align: left;
+}
+
+.wisata-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.wisata-card h3 {
+    font-size: 20px;
+    margin: 20px 22px 10px;
+    color: #111827;
+}
+
+.wisata-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4b5563;
+    margin: 0 22px 24px;
+}
+
+/*Galeri*/
+
+.contentgaleri {
+    padding: 100px 80px;
+    background: #f8fafc;
+}
+
+.gallery-foto {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item figcaption {
+    padding: 20px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2933;
+    background: #ffffff;
+}
+
+.form-wrapper {
+    max-width: 850px;
+    margin: auto;
+    background: #ffffff;
+    padding: 50px 60px;
+    border-radius: 28px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+}
+.form-header h2 {
+    font-size: 34px;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.form-header p {
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+.form-section {
+    border: none;
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.form-section legend {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f766e;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+
+.form-group textarea {
+    padding: 14px 16px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    outline: none;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+
+.form-group textarea:focus {
+    border-color: #14b8a6;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.15);
+}
+
+
+
+.form-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.btn-submit {
+    padding: 14px 42px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(90deg, #0f766e, #14b8a6);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+
+}
+
+
